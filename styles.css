@@ -241,22 +241,13 @@ a {
 
 .preview-image-wrap {
   overflow: hidden;
-  aspect-ratio: 16 / 9;
   background: #f5f6f8;
 }
 
 .preview-image-wrap img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.preview-ministri .preview-image-wrap img {
-  object-position: center;
-}
-
-.preview-inscribi .preview-image-wrap img {
-  object-position: center;
+  height: auto;
+  object-fit: contain;
 }
 
 .preview-meta {
@@ -362,27 +353,18 @@ a {
 .app-hero {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 16 / 10;
-  background: #eee;
+  background: #fff;
 }
 
 .app-hero > img:first-child {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   transition: transform .35s ease;
 }
 
 .app-card-link:hover .app-hero > img:first-child {
-  transform: scale(1.02);
-}
-
-.ministri-card .app-hero > img:first-child {
-  object-position: center;
-}
-
-.inscribi-card .app-hero > img:first-child {
-  object-position: center;
+  transform: scale(1.01);
 }
 
 /* Real logo container: fixed size, clipped, no giant SVG rendering */
@@ -568,16 +550,13 @@ a {
 }
 
 .principle {
-  padding: 30px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 34px;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-}
-
-.principle > span {
-  display: inline-block;
-  margin-bottom: 42px;
-  color: var(--accent);
-  font-weight: 800;
 }
 
 .principle h3 {
@@ -820,5 +799,26 @@ a {
 
   * {
     transition: none !important;
+  }
+}
+
+/* v4: preserve the supplied hero PNG artwork without cropping */
+.ministri-card .app-hero {
+  background: #f8f5f1;
+}
+
+.inscribi-card .app-hero {
+  background: #f7fbfd;
+}
+
+.ministri-card .app-hero > img,
+.inscribi-card .app-hero > img {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .principle {
+    min-height: auto;
   }
 }

@@ -1,15 +1,15 @@
-# iDesignApps
+# iDesignApps website — v4
 
-Static GitHub Pages website for **idesignapps.co.uk**.
+This version:
+- uses the exact original PNG hero files supplied for Ministri and Inscribi
+- does not convert the hero artwork to WebP
+- displays each hero at its natural ratio instead of cropping it
+- removes the 01 / 02 / 03 numbering from the principles cards
+- keeps the exact supplied Ministri and Inscribi SVG logos
+- keeps the full Ministri and Inscribi cards clickable
 
-## v3
+Links:
+- https://ministri.app
+- https://inscribi.app
 
-This version uses the real user-supplied Ministri and Inscribi logo SVGs and the real hero artwork supplied for both products.
-
-The SVG logos are placed inside fixed-size overflow-hidden containers so their original 2000px SVG dimensions cannot expand the website layout.
-
-Both product cards are fully clickable:
-- Ministri → https://ministri.app
-- Inscribi → https://inscribi.app
-
-Upload all files in this folder to the root of the existing `idesignapps` GitHub repository and commit the changes.
+Upload all files in this folder to the root of the existing `idesignapps` GitHub repository and commit the replacements.
