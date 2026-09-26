@@ -1,27 +1,23 @@
 # iDesignApps website
 
-Static website for **idesignapps.co.uk**, designed to be hosted on GitHub Pages.
+Static website for **idesignapps.co.uk**, hosted using GitHub Pages.
+
+## Version 2 changes
+
+- The full Ministri card is clickable and opens `https://ministri.app`
+- The full Inscribi card is clickable and opens `https://inscribi.app`
+- Added local Ministri and Inscribi logo marks
+- Added visible destination URLs to each app card
 
 ## Files
 
-- `index.html` — homepage
-- `styles.css` — responsive styling
-- `script.js` — mobile navigation and automatic copyright year
-- `favicon.svg` — simple text-based favicon
-- `CNAME` — custom domain for GitHub Pages
+- `index.html`
+- `styles.css`
+- `script.js`
+- `favicon.svg`
+- `ministri-logo.svg`
+- `inscribi-logo.svg`
+- `CNAME`
+- `README.md`
 
-## GitHub Pages
-
-1. Create a new GitHub repository.
-2. Upload all files from this folder to the root of the repository.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
-7. In **Custom domain**, enter `idesignapps.co.uk`.
-
-DNS records will also need to be added at the company where the domain was purchased.
-
-## Notes
-
-The Contact section intentionally does not contain an email address yet, so no unconfigured email address is published.
+To update the live GitHub Pages site, upload these files to the root of the existing `idesignapps` repository and commit the replacements.
