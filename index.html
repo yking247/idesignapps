@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="iDesignApps develops thoughtful mobile and web applications for productivity, faith, education, church organisation and community support.">
-  <meta name="theme-color" content="#0d1728">
+  <meta name="description" content="iDesignApps creates practical digital tools for productivity, faith, education, church organisation and community support.">
+  <meta name="theme-color" content="#0f1728">
   <title>iDesignApps — Thoughtful digital tools</title>
-
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,246 +13,146 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a href="#top" class="wordmark" aria-label="iDesignApps home">
-        <span class="wordmark-i">i</span>DesignApps
-      </a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="#top" class="wordmark"><span>i</span>DesignApps</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><i></i><i></i></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
-        <span></span><span></span>
-      </button>
+<main id="top">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Independent digital products</p>
+        <h1>Thoughtful apps.<br><span>Designed with purpose.</span></h1>
+        <p class="hero-text">Practical digital tools for productivity, faith, education, church organisation and community support.</p>
+        <div class="hero-actions">
+          <a class="button dark" href="#apps">Explore our apps</a>
+          <a class="button outline" href="#about">About iDesignApps</a>
+        </div>
+      </div>
 
-      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
-        <a href="#apps">Apps</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Independent digital products</p>
-          <h1>Thoughtful apps.<br><span>Designed with purpose.</span></h1>
-          <p class="hero-text">
-            We create practical digital tools for productivity, faith, education,
-            church organisation and community support.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#apps">Explore our apps</a>
-            <a class="button button-secondary" href="#about">About iDesignApps</a>
+      <div class="mini-showcase" aria-label="iDesignApps product previews">
+        <a class="mini-product" href="https://ministri.app" target="_blank" rel="noopener noreferrer">
+          <img class="mini-hero" src="ministri-hero.png" alt="Ministri calendar interface">
+          <div class="mini-product-meta">
+            <img class="mini-product-logo" src="ministri-logo-web.png" alt="">
+            <div><strong>Ministri</strong><small>Church organisation</small></div>
           </div>
-        </div>
+        </a>
 
-        <div class="showcase" aria-label="Preview of iDesignApps products">
-          <div class="showcase-glow"></div>
-
-          <article class="preview-card preview-ministri">
-            <div class="preview-image-wrap">
-              <img src="ministri-hero.png" alt="Ministri calendar interface">
-            </div>
-            <div class="preview-meta">
-              <span class="mini-logo ministri-mini">
-                <img src="ministri-logo.svg" alt="">
-              </span>
-              <div>
-                <strong>Ministri</strong>
-                <small>Church organisation</small>
-              </div>
-            </div>
-          </article>
-
-          <article class="preview-card preview-inscribi">
-            <div class="preview-image-wrap">
-              <img src="inscribi-hero.png" alt="Inscribi mobile app interface">
-            </div>
-            <div class="preview-meta">
-              <span class="mini-logo inscribi-mini">
-                <img src="inscribi-logo.svg" alt="">
-              </span>
-              <div>
-                <strong>Inscribi</strong>
-                <small>Notes & reflection</small>
-              </div>
-            </div>
-          </article>
-        </div>
+        <a class="mini-product" href="https://inscribi.app" target="_blank" rel="noopener noreferrer">
+          <img class="mini-hero" src="inscribi-hero.png" alt="Inscribi app interface">
+          <div class="mini-product-meta">
+            <img class="mini-product-logo" src="inscribi-logo-web.png" alt="">
+            <div><strong>Inscribi</strong><small>Notes & reflection</small></div>
+          </div>
+        </a>
       </div>
-    </section>
-
-    <section id="apps" class="apps-section section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Our apps</p>
-          <h2>Useful software, built around real needs.</h2>
-          <p>
-            Each iDesignApps product has its own identity, purpose and experience —
-            connected by a focus on clarity, usefulness and thoughtful design.
-          </p>
-        </div>
-
-        <div class="app-grid">
-          <a class="app-card app-card-link ministri-card"
-             href="https://ministri.app"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Visit Ministri at ministri.app">
-
-            <div class="app-hero">
-              <img src="ministri-hero.png" alt="Ministri calendar dashboard">
-              <span class="app-logo-box ministri-logo-box">
-                <img src="ministri-logo.svg" alt="Ministri logo">
-              </span>
-            </div>
-
-            <div class="app-card-content">
-              <div class="app-title-row">
-                <div>
-                  <p class="app-category">Church organisation</p>
-                  <h3>Ministri</h3>
-                </div>
-                <span class="status-pill">Web app</span>
-              </div>
-
-              <p class="app-description">
-                A practical church ministry platform for managing rotas, ministries,
-                members, communication and the moving parts of church life.
-              </p>
-
-              <div class="tag-row">
-                <span>Rotas</span>
-                <span>Members</span>
-                <span>Ministries</span>
-              </div>
-
-              <span class="app-link">
-                Visit ministri.app <span aria-hidden="true">↗</span>
-              </span>
-            </div>
-          </a>
-
-          <a class="app-card app-card-link inscribi-card"
-             href="https://inscribi.app"
-             target="_blank"
-             rel="noopener noreferrer"
-             aria-label="Visit Inscribi at inscribi.app">
-
-            <div class="app-hero">
-              <img src="inscribi-hero.png" alt="Inscribi app shown on a phone beside a notebook">
-              <span class="app-logo-box inscribi-logo-box">
-                <img src="inscribi-logo.svg" alt="Inscribi logo">
-              </span>
-            </div>
-
-            <div class="app-card-content">
-              <div class="app-title-row">
-                <div>
-                  <p class="app-category">Christian note-taking</p>
-                  <h3>Inscribi</h3>
-                </div>
-                <span class="status-pill">Mobile & web</span>
-              </div>
-
-              <p class="app-description">
-                A living library for sermon notes, Bible studies and personal reflection —
-                helping meaningful thoughts stay useful long after they are written.
-              </p>
-
-              <div class="tag-row">
-                <span>Notes</span>
-                <span>Gems</span>
-                <span>Reflection</span>
-              </div>
-
-              <span class="app-link">
-                Visit inscribi.app <span aria-hidden="true">↗</span>
-              </span>
-            </div>
-          </a>
-
-          <article class="future-card">
-            <div class="future-mark">+</div>
-            <div>
-              <p class="app-category">More to come</p>
-              <h3>New products are on the way.</h3>
-              <p>iDesignApps is growing. Future digital tools will be added here as they launch.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about-section section">
-      <div class="container about-grid">
-        <div>
-          <p class="eyebrow">About iDesignApps</p>
-          <h2>Small studio.<br>Purposeful products.</h2>
-        </div>
-
-        <div class="about-copy">
-          <p class="lead">
-            iDesignApps develops and sells access to digital applications and software
-            tools designed to support productivity, education, faith, community and organisation.
-          </p>
-          <p>
-            Our products include mobile and web applications for Christian note-taking
-            and personal reflection, church ministry management, education, productivity
-            and community support.
-          </p>
-          <p>
-            We offer a mixture of free and paid digital services, including subscriptions,
-            one-time purchases, premium features, software setup services and ongoing support.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="principles-section">
-      <div class="container principles-grid">
-        <article class="principle">
-          <h3>Useful first</h3>
-          <p>Features should solve a real problem, not exist just to make a product feel bigger.</p>
-        </article>
-
-        <article class="principle">
-          <h3>Clear by design</h3>
-          <p>Good software should feel understandable, approachable and easy to move through.</p>
-        </article>
-
-        <article class="principle">
-          <h3>Built to grow</h3>
-          <p>Products can start focused, then develop thoughtfully as their communities grow.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section section">
-      <div class="container contact-panel">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Want to know more?</h2>
-          <p>
-            Visit one of our product websites for app-specific information.
-            General iDesignApps contact details will be added here soon.
-          </p>
-        </div>
-        <a class="button button-light" href="#apps">View our apps</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <a href="#top" class="wordmark"><span class="wordmark-i">i</span>DesignApps</a>
-      <p>Digital tools designed with purpose.</p>
-      <p class="copyright">© <span id="year"></span> iDesignApps. All rights reserved.</p>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="apps" class="apps-section section">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Our apps</p>
+        <h2>Useful software, built around real needs.</h2>
+        <p>Each product has its own identity and purpose, connected by thoughtful design and practical use.</p>
+      </div>
+
+      <div class="app-grid">
+        <a class="app-card" href="https://ministri.app" target="_blank" rel="noopener noreferrer">
+          <div class="app-media">
+            <img class="app-media-image" src="ministri-hero.png" alt="Ministri calendar dashboard">
+            <img class="app-logo" src="ministri-logo-web.png" alt="Ministri logo">
+          </div>
+          <div class="app-content">
+            <div class="title-row">
+              <div>
+                <p class="app-category">Church organisation</p>
+                <h3>Ministri</h3>
+              </div>
+              <span class="pill">Web app</span>
+            </div>
+            <p>A practical church ministry platform for managing rotas, ministries, members, communication and the moving parts of church life.</p>
+            <span class="visit">Visit ministri.app ↗</span>
+          </div>
+        </a>
+
+        <a class="app-card" href="https://inscribi.app" target="_blank" rel="noopener noreferrer">
+          <div class="app-media">
+            <img class="app-media-image" src="inscribi-hero.png" alt="Inscribi app shown on a phone beside a notebook">
+            <img class="app-logo" src="inscribi-logo-web.png" alt="Inscribi logo">
+          </div>
+          <div class="app-content">
+            <div class="title-row">
+              <div>
+                <p class="app-category">Christian note-taking</p>
+                <h3>Inscribi</h3>
+              </div>
+              <span class="pill">Mobile & web</span>
+            </div>
+            <p>A living library for sermon notes, Bible studies and personal reflection — helping meaningful thoughts stay useful long after they are written.</p>
+            <span class="visit">Visit inscribi.app ↗</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="coming-soon">
+        <strong>More to come.</strong>
+        <span>Future iDesignApps products will appear here as they launch.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section section">
+    <div class="container about-grid">
+      <div>
+        <p class="eyebrow">About iDesignApps</p>
+        <h2>Small studio.<br>Purposeful products.</h2>
+      </div>
+      <div class="about-copy">
+        <p class="lead">iDesignApps develops and sells access to digital applications and software tools designed to support productivity, education, faith, community and organisation.</p>
+        <p>Our products include mobile and web applications for Christian note-taking and personal reflection, church ministry management, education, productivity and community support.</p>
+        <p>We offer free and paid digital services, including subscriptions, one-time purchases, premium features, setup services and ongoing support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="principles-section">
+    <div class="container principles-grid">
+      <article class="principle"><h3>Useful first</h3><p>Features should solve a real problem, not exist just to make a product feel bigger.</p></article>
+      <article class="principle"><h3>Clear by design</h3><p>Good software should feel understandable, approachable and easy to move through.</p></article>
+      <article class="principle"><h3>Built to grow</h3><p>Products can start focused, then develop thoughtfully as their communities grow.</p></article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section section">
+    <div class="container contact-panel">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Want to know more?</h2>
+        <p>Visit one of our product websites for app-specific information. General iDesignApps contact details will be added here soon.</p>
+      </div>
+      <a class="button light" href="#apps">View our apps</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <a href="#top" class="wordmark"><span>i</span>DesignApps</a>
+    <p>Digital tools designed with purpose.</p>
+    <p>© <span id="year"></span> iDesignApps. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

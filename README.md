@@ -1,15 +1,14 @@
-# iDesignApps website — v4
+# iDesignApps website — compact v5
 
-This version:
-- uses the exact original PNG hero files supplied for Ministri and Inscribi
-- does not convert the hero artwork to WebP
-- displays each hero at its natural ratio instead of cropping it
-- removes the 01 / 02 / 03 numbering from the principles cards
-- keeps the exact supplied Ministri and Inscribi SVG logos
-- keeps the full Ministri and Inscribi cards clickable
+This version fixes the oversized artwork problem.
 
-Links:
-- https://ministri.app
-- https://inscribi.app
+Changes:
+- exact supplied Ministri and Inscribi SVG logos were rasterised into tightly cropped web PNGs
+- the large 2000×2000 SVG files are no longer rendered directly by the page
+- hero/product previews are capped at compact fixed heights
+- product cards and section spacing are smaller
+- principles cards have no numbers
+- the original supplied hero artwork is still used
+- Ministri and Inscribi cards remain fully clickable
 
-Upload all files in this folder to the root of the existing `idesignapps` GitHub repository and commit the replacements.
+Upload every file in this folder to the root of the existing GitHub repository and replace the current versions.
